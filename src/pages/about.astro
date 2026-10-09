@@ -1,0 +1,37 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="О проекте — Astro SSR">
+	<h1>О проекте</h1>
+	<p>
+		Базовое приложение на
+		<a href="https://astro.build" target="_blank" rel="noopener noreferrer">Astro</a>
+		с серверным рендерингом через адаптер <code>@astrojs/node</code>. Маршруты из папки
+		<code>src/pages/</code> подключаются автоматически.
+	</p>
+</Layout>
+
+<style>
+	h1 {
+		font-size: 1.75rem;
+		margin: 0 0 1rem;
+	}
+
+	p {
+		color: #374151;
+		line-height: 1.6;
+		margin: 0;
+	}
+
+	code {
+		background: #f3f4f6;
+		padding: 0.15rem 0.4rem;
+		border-radius: 0.25rem;
+		font-size: 0.9em;
+	}
+
+	a {
+		color: #2563eb;
+	}
+</style>
